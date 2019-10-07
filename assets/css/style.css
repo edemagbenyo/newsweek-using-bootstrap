@@ -26,8 +26,8 @@ header {
   justify-content: flex-start;
 }
 
-header a{
-    font-weight: bold;
+header a {
+  font-weight: bold;
 }
 a.logo {
   text-align: left;
@@ -50,7 +50,7 @@ a.signin {
   border: none;
   text-transform: capitalize;
   margin-left: 5px;
-  color: #FFF;
+  color: #fff;
 }
 
 a.subscribe:after {
@@ -59,17 +59,41 @@ a.subscribe:after {
   font-weight: normal;
 }
 
+img.menu {
+  width: 10%;
+  margin-left: 20px;
+}
+/* Top links */
+div.top-links {
+  border-bottom: 2px solid #EEE;
+}
 
-img.menu{
-    width: 10%;
-    margin-left: 20px;
+div.top-links ul {
+  margin: 15px 0;
+  display: flex;
+}
+
+div.top-links li {
+  flex-grow: 1;
+  border-right: 1px solid #ccc;
+  padding: 0 0.4em;
+  text-align: center;
+}
+div.top-links li:last-of-type {
+  border: none;
+}
+div.top-links li:last-of-type img {
+  width: 20px;
+}
+div.top-links li a {
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
-
-    header{
-        padding:20px;
-    }
+  header {
+    padding: 20px;
+  }
 
   .logo-div {
     text-align: center;
