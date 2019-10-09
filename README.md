@@ -16,7 +16,7 @@ Here is how to setup this project on your machine.
 
 Open your terminal in your working folder and execute the following command
 
->git clone git@github.com:edemagbenyo/apple-website.git
+>git clone https://github.com/edemagbenyo/newsweek-using-bootstrap
 
 
 Here is the link to the live version of this project	

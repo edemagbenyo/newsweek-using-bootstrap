@@ -62,7 +62,7 @@
     <!-- First section -->
     <div class="container-fluid first-section">
         <div class="row">
-            <section class="col-lg-3 featured">
+            <section class="col-sm-12 col-md-6 col-lg-3 featured order-sm-1">
                 <h2>Featured stories</h2>
                 <article>
                     <div class="post-image">
@@ -107,11 +107,11 @@
                     </p>
                 </article>
             </section>
-            <section class="col-lg-6 top-story">
+            <section class="col-sm-12 col-md-6 col-lg-6 top-story order-sm-2">
                 <h2>Top Story</h2>
                 <article>
                     <div class="post-image">
-                        <img src="./assets/img/trump.jpg" alt="top story image">
+                        <img src="./assets/img/trump.jpg" class="w-100" alt="top story image">
                         <span>U. S.</span>
                     </div>
                     <h3><a href="#">Trump's Syria Withdrawal Could Help ISIS Stage Mass Prison Breaks, Critics Argue</a>
@@ -120,10 +120,7 @@
                         an invasion of northern Syria could unleash chaos that ISIS fighters would try to exploit.
                     </p>
                 </article>
-                <article>
-                    <h3>U.S. Accused of Betraying Kurds and Giving ISIS New Life After Trump Green-Lights Turkey
-                        Invasion of Northern Syria</h3>
-                </article>
+                
                 <section class="inside-top">
                     <h2>Culture</h2>
                     <div class="d-flex flex-column inside-top-content">
@@ -272,7 +269,7 @@
                     </ul>
                 </section>
             </section>
-            <section class="col-lg-3 opinion">
+            <section class="col-sm-12 col-md-12 col-lg-3 opinion order-sm-3">
                 <h2>Opinion</h2>
                 <ul class="list-unstyled">
                     <li class="media">
@@ -382,12 +379,14 @@
     <div class="magazine">
         <div class="first-row container-fluid">
             <div class="row">
-                <div class="col-3">
+                <div class=" col-lg-3">
                     <div class="post-image">
-                        <img src="./assets/img/mag-1.webp" alt="trump on moon">
+                        <img src="./assets/img/mag-1.webp" class="w-100" alt="trump on moon">
+                        <span> OCTOBER 18 ISSUE</span>
                     </div>
+                    <div class="see-features">SEE ALL FEATURES ></div>
                 </div>
-                <div class=" col-9 in-the-mag">
+                <div class=" col-lg-9 in-the-mag">
                     <h2 class="text-center text-uppercase p-3 border-bottom"> <span class="n-special">N</span> In the
                         magazine</h2>
                     <div class="row my-2">
@@ -956,7 +955,7 @@
         <div class="row">
             <div class="col-lg-8 ">
                 <h2>Subscribe</h2>
-                <div class="d-flex subscribe">
+                <div class="d-flex flex-column flex-md-row subscribe">
                     <div class="images w-100">
                         <img src="./assets/img/s2.jpg" class="s2" alt="image subscribe">
                         <img src="./assets/img/s1.jpg" class="s1" alt="image subscribe">
@@ -964,7 +963,7 @@
                     <div class="">
                         <h3>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
                         </h3>
-                        <p>All Access + Weekly Delivery.
+                        <p class="text-center">All Access + Weekly Delivery.
                             Choose A Membership That's Perfect for You!
 
                         </p>
@@ -974,7 +973,7 @@
             </div>
             <div class="col-lg-4 newsletter">
                 <h2>Newsletter</h2>
-                <div class="d-flex content">
+                <div class="d-flex flex-column flex-md-row content">
                     <div class="newsletter-img w-50">
 
                     </div>
@@ -996,8 +995,8 @@
     <footer>
         <div class="container-fluid">
             <div class="row socials">
-                <div class="col-md-6">
-                    <a href="#" class="logo">
+                <div class="col-md-6 d-flex justify-content-start align-items-end">
+                    <a href="#" class="logo pb-2">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                             style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -1008,9 +1007,19 @@
                             </g>
                         </svg>
                     </a>
+                    <span class="logo-copy pb-2">&copy; 2019 Newsweek</span>
                 </div>
-                <div class="col-md-6">
-                    <ul>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <ul class="align-self-end">
+                        <li><a href="#">
+                                <img src="./assets/img/facebook.png" alt="Facebook">
+                            </a></li>
+                        <li><a href="#">
+                                <img src="./assets/img/facebook.png" alt="Facebook">
+                            </a></li>
+                        <li><a href="#">
+                                <img src="./assets/img/facebook.png" alt="Facebook">
+                            </a></li>
                         <li><a href="#">
                                 <img src="./assets/img/facebook.png" alt="Facebook">
                             </a></li>
