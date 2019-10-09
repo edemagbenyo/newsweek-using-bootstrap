@@ -107,6 +107,10 @@ div.top-links li {
   margin: auto;
 }
 
+.inside-top-content div article img {
+  width: 100%;
+}
+
 .socials ul li a img {
   width: 6%;
 }
@@ -134,10 +138,6 @@ div.top-links li {
 .socials ul li {
   width: 20%;
   display: inline;
-}
-
-.inside-top-content div article img {
-  width: 100%;
 }
 
 div.top-links li:last-of-type {
@@ -408,8 +408,7 @@ div.top-links li a {
 }
 
 .newsletter-img {
-  background:
-    #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
+  background: #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
     center;
 }
 
