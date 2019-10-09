@@ -1,2 +1,29 @@
-# newsweek-using-bootstrap
-A replica of the homepage of newsweek website
+# Clone of apple website home page
+
+---
+## Authors
+### This is a microverse project by Edem
+You can find more about Edem [here](https://github.com/edemagbenyo)
+
+## Tech stack
+HTML, CSS
+In this project we are building a web page that match the appearance of [The newsweek website](https//newswee.comk) home page.
+
+---
+
+## Setup
+Here is how to setup this project on your machine.
+
+Open your terminal in your working folder and execute the following command
+
+>git clone git@github.com:edemagbenyo/apple-website.git
+
+
+Here is the link to the live version of this project	
+[here]()
+
+
+## Things learnt
+
+Positioning(float and flex)
+Background(Images, Gradient)
