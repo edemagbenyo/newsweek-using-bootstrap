@@ -20,10 +20,12 @@ Open your terminal in your working folder and execute the following command
 
 
 Here is the link to the live version of this project	
-[here]()
+[here](https://raw.githack.com/edemagbenyo/newsweek-using-bootstrap/design-home-page/index.html)
 
 
 ## Things learnt
 
 Positioning(float and flex)
 Background(Images, Gradient)
+Media Query
+Bootstrap 4.3
