@@ -87,6 +87,7 @@ div.top-links {
 div.top-links ul {
   margin: 15px 0;
 }
+
 .links-page li,
 .lang li {
   border-right: 1px solid #c4c4c4;
@@ -407,7 +408,8 @@ div.top-links li a {
 }
 
 .newsletter-img {
-  background: #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
+  background:
+    #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
     center;
 }
 
