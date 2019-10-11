@@ -79,7 +79,6 @@ img.menu {
   margin-left: 20px;
 }
 
-
 /* Top links */
 div.top-links {
   border-bottom: 2px solid #eee;
@@ -111,7 +110,6 @@ div.top-links li {
 .inside-top-content div article img {
   width: 100%;
 }
-
 
 .socials ul li a img {
   width: 6%;
@@ -424,8 +422,7 @@ div.top-links li a {
 }
 
 .newsletter-img {
-  background:
-    #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
+  background: #9a9a9a url("../img/newsletter-promo-home-page.png") no-repeat
     center;
 }
 
@@ -459,7 +456,6 @@ div.top-links li a {
     width: 100%;
   }
 }
-
 
 @media screen and (max-width: 766px) {
   div.subscribe .images img.s2,
